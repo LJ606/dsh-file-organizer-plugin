@@ -61,10 +61,6 @@ node test/test.mjs   # 或 npm test
 
 没验证的部分：完整的 dsh Web UI 端到端（需要 clone harness 仓库 + pnpm install + 配 DeepSeek API Key）。上面安装命令是按官方文档写的，在这台机器上没跑全套 UI。
 
-## 面试时怎么讲（30 秒版）
-
-> 我做了一个 DeepSeek Harness 插件，三个工具：扫文件夹、找重复、给整理方案。关键是安全设计：只读扫描、跳过隐藏文件和符号链接、整理只出 dry-run 方案不动文件。本地用真实的 dsh-tools 跑通过，重复文件是用大小分组再算 SHA-256 找出来的。
-
 ## 许可证
 
 Apache-2.0
